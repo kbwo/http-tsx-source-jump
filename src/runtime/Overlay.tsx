@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, {useEffect, useState, useRef} from "react";
 import ReactDOM from "react-dom";
 
 function useMouseOverElementRef(): HTMLElement | null {
@@ -125,7 +125,7 @@ export function SourceJumpOverlay() {
         onClick={() => {
           const el = document.createElement("a");
           el.href = sourceData?.sjPath!;
-          el.click();
+          fetch(sourceData?.sjPath!, {method: 'GET'})
         }}
       >
         🔗 {sourceData?.sjDisplayName}

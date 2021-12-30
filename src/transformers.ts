@@ -72,8 +72,7 @@ function appendSourceMapAttribute(
         factory.createJsxAttribute(
           factory.createIdentifier("data-sj-path"),
           factory.createStringLiteral(
-            `vscode://file${fileName}:${position.line + 1}:${
-              position.character + 1
+            `http://127.0.0.1:${opts.port}/${fileName}:${position.line + 1}:${position.character + 1
             }`
           )
         ),

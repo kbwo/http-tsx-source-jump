@@ -6,16 +6,14 @@ Jump from the HTML element to the source code of the generator.
 
 ## How it works
 
-- Vite plugin to embed source location
-- Overlay ui
-- Open `vscode://file/...` to jump
+- See ![](https://github.com/mizchi/tsx-source-jump) 
 
 ## How to use
 
 ### Install
 
 ```bash
-yarn add tsx-source-jump -D
+yarn add http-tsx-source-jump -D
 ```
 
 ### Vite
@@ -36,6 +34,7 @@ export default defineConfig({
             projectRoot: __dirname + "/",
             // rewriting element target
             target: [/^[a-z]+$/],
+            port: 3333,
           }),
         ]
       : []),

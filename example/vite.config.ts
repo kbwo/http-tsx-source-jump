@@ -1,7 +1,7 @@
-import { defineConfig } from "vite";
+import {defineConfig} from "vite";
 import react from "@vitejs/plugin-react";
-import { tsxSourceJump } from "..";
-import { embedSource } from "../src/vite/embed-source";
+import {tsxSourceJump} from "..";
+import {embedSource} from "../src/vite/embed-source";
 
 export default defineConfig({
   plugins: [
@@ -12,6 +12,7 @@ export default defineConfig({
         // for chakra-ui
         /^(Box|Flex|Center|Container|Grid|SimpleGrid|Stack|Wrap|Button|Link|Icon|Image)$/,
       ],
+      port: 3333,
     }),
     react(),
     embedSource(),
