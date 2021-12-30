@@ -1,4 +1,4 @@
-# tsx-source-jump
+# http-tsx-source-jump
 
 Jump from the HTML element to the source code of the generator.
 
@@ -6,7 +6,7 @@ Jump from the HTML element to the source code of the generator.
 
 ## How it works
 
-- See ![](https://github.com/mizchi/tsx-source-jump) 
+- See [https://github.com/mizchi/tsx-source-jump](https://github.com/mizchi/tsx-source-jump) 
 
 ## How to use
 
@@ -116,3 +116,6 @@ In browser, `SourceJumpOverlayPortal` component catches `mouseover` events and o
 ## LICENSE
 
 MIT
+
+## Special Thanks
+- [https://github.com/mizchi/tsx-source-jump](https://github.com/mizchi/tsx-source-jump) 
