@@ -2,11 +2,12 @@
 
 Jump from the HTML element to the source code of the generator.
 
-![](https://i.gyazo.com/c003c81e7817d93367b26af8c64dcf65.gif)
-
 ## How it works
 
 - See [https://github.com/mizchi/tsx-source-jump](https://github.com/mizchi/tsx-source-jump) 
+- See [https://github.com/mizchi/http-tsx-source-jump.vim](https://github.com/kbwo/tsx-source-jump.vim) 
+
+this plugin is customized to use in vim.
 
 ## How to use
 
